@@ -7,7 +7,6 @@ import ProfileItem from './ProfileItem';
 
 const Profiles = ({ getProfiles, profile: { profiles, loading }}) => {
     useEffect(() => {
-        console.log('in profiles')
         getProfiles();
     }, [getProfiles]);
 
